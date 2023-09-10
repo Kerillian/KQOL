@@ -1,9 +1,7 @@
 ## KQOL
-___
 Kerillian's Quality of Life mod. Adds random garbage that I wanted and use for my Videos.
 
 ## Current features
-___
 
 #### Quick Switch
 Allows for quickly switching movement style, even during combo.<br>
@@ -41,18 +39,16 @@ ___
 #### Auto Skip
 Automatically skip skippable cutscenes. I'd recommend only using this one after beating the game.<br>
 **DISABLED BY DEFAULT BECAUSE IT CAN SKIP STORY CUTSCENES, YOU HAVE BEEN WARNED.**
+___
 
 ## Config location?
-___
 It's going to be in your BepInEx config folder, if BRC is installed on C it will be here:</br>
 `C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\BepInEx\config\Kerillian.QOL.cfg`
 
 ## Have an idea?
-___
 Go ahead and make an issue. If the idea is solid and I'm feeling up to the task I might add it.
 
 ## Thanks
-___
 - My friends, love you guys.
 - [BepInEx](https://github.com/BepInEx/BepInEx)
   - [AssemblyPublicizer](https://github.com/BepInEx/BepInEx.AssemblyPublicizer)
