@@ -30,7 +30,7 @@ namespace KQOL.Patches
 				return;
 			}
 			
-			if (__instance.inputBuffer.switchStyleButtonHeld && __instance.boostCharge < Plugin.Konfig.QuickSwitchCost.Value)
+			if (__instance.inputBuffer.switchStyleButtonHeld && __instance.boostCharge >= Plugin.Konfig.QuickSwitchCost.Value)
 			{
 				if (__instance.inputBuffer.trick1ButtonNew)
 				{
