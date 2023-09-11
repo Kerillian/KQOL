@@ -87,32 +87,32 @@ namespace KQOL
 			
 			if (input.GetKey(KeyCode.W))
 			{
-				tr.position += tr.forward * (desiredSpeed * Time.deltaTime);
+				tr.position += tr.forward * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 			
 			if (input.GetKey(KeyCode.S))
 			{
-				tr.position -= tr.forward * (desiredSpeed * Time.deltaTime);
+				tr.position -= tr.forward * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 			
 			if (input.GetKey(KeyCode.A))
 			{
-				tr.position -= tr.right * (desiredSpeed * Time.deltaTime);
+				tr.position -= tr.right * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 			
 			if (input.GetKey(KeyCode.D))
 			{
-				tr.position += tr.right * (desiredSpeed * Time.deltaTime);
+				tr.position += tr.right * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 
 			if (input.GetKey(KeyCode.Space))
 			{
-				tr.position += Vector3.up * (desiredSpeed * Time.deltaTime);
+				tr.position += Vector3.up * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 
 			if (input.GetKeyDown(KeyCode.C))
 			{
-				tr.position -= Vector3.up * (desiredSpeed * Time.deltaTime);
+				tr.position -= Vector3.up * (desiredSpeed * Time.unscaledDeltaTime);
 			}
 
 			if (input.GetKeyDown(KeyCode.Q))
