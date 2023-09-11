@@ -79,7 +79,7 @@ namespace KQOL
 			this.TimescaleResetKey = file.Bind(
 				"Keybinds",
 				"TimescaleReset",
-				KeyCode.Plus,
+				KeyCode.Alpha0,
 				"Reset the timescale to 1.0"
 			);
 		}
