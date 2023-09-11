@@ -10,8 +10,6 @@ namespace KQOL
 		private IInputSystem input;
 		private Vector3 mousePrev = Vector3.zero;
 		private float moveSpeed = 1f;
-		private float yaw = 0.0f;
-		private float pitch = 0.0f;
 
 		public static bool Created { get; private set; }
 		private static Camera OurCamera;
