@@ -75,6 +75,11 @@ namespace KQOL
 
 		private void Update()
 		{
+			if (!Application.isFocused)
+			{
+				return;
+			}
+		
 			moveSpeed = Mathf.Clamp(moveSpeed + input.mouseScrollDelta.y * 0.3f, 1f, 100f);
 			float desiredSpeed = moveSpeed;
 
