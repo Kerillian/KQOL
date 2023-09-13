@@ -65,7 +65,7 @@ namespace KQOL
 			this.TimescaleUpKey = file.Bind(
 				"Keybinds",
 				"TimescaleUp",
-				KeyCode.Plus,
+				KeyCode.Equals,
 				"Increase the timescale by 0.1"
 			);
 			
